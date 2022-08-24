@@ -2,7 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 	
-//Função gotoxy
+//FunÃ§Ã£o gotoxy
  void gotoxy(int x, int y){
 		
 	COORD coord;
@@ -40,7 +40,7 @@ int main(){
 			
 				case 1:
 				printf("Para salvar a tela\n");
-			    printf("Deseja salvar??");
+			        printf("Deseja salvar??");
 				scanf("%d", &salvar, &sim);
 				break;		
 			
